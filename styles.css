@@ -1,0 +1,220 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=GreycliffCF&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'GreycliffCF', sans-serif;
+  background-color: #1a0f1f;
+  color: #fff;
+  overflow: auto;
+}
+
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #8b008b;
+}
+
+
+.hero {
+  text-align: center;
+  position: relative;
+}
+.hero .version {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0 0 20px #cc00ff;
+  position: absolute;
+  top: 0;
+  right: -2rem;
+}
+.hero {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 0 0 20px #cc00ff;
+  text-align: center;
+  top: 50;
+}
+.hero h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 20px #cc00ff;
+  position: relative;
+}
+.hero h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 20px #cc00ff;
+  position: relative;
+}
+.hero p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 20px #cc00ff;
+}
+
+
+.sponsor {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 0 0 20px #cc00ff;
+  text-align: center;
+  position: relative;
+  top: -5px;
+}
+.sponsor h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 20px #cc00ff;
+}
+.sponsor p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 20px #cc00ff;
+}
+.sponsor a {
+  color: #cc00ff;
+}
+.sponsor a:hover {
+  text-decoration: none;
+}
+
+
+.line {
+  width: 25%;
+  height: 2px;
+  background-color: #31173c; 
+  position: absolute;
+  top: 400px;
+  z-index: -1;
+}
+
+
+.transparent-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px; /* Adjust height as needed */
+  background-color: rgba(0, 0, 0, 0); /* Clear background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000; /* Ensure it's above header */
+  padding: 10px 20px; /* Adjust padding */
+}
+.transparent-bar a, .transparent-bar button {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: opacity 0.3s ease;
+}
+.transparent-bar a:hover, .transparent-bar button:hover {
+  opacity: 0.8;
+}
+.transparent-bar .discord-link {
+  text-decoration: none;
+}
+.transparent-bar .download-button {
+  background-color: #cc00ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.left-links {
+  display: flex;
+  align-items: center;
+}
+.left-links a {
+  margin-right: 20px; /* Adjust spacing between links if needed */
+}
+
+
+
+.video {
+  width: 640px;
+  height: 360px;
+}
+.pulse-glow {
+  animation: pulse 1s infinite alternate;
+}
+@keyframes pulse {
+  from {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #cc00ff, 0 0 80px #cc00ff, 0 0 10px #cc00ff;
+  }
+  to {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #cc00ff, 0 0 160px #cc00ff, 0 0 20px #cc00ff;
+  }
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.box-panel {
+  position: relative;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #27172f;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #cc00ff;
+  transition: transform 0.3s ease-in-out;
+  display: flex; /* Add */
+  flex-direction: column; /* Add */
+  align-items: center; /* Add */
+}
+.content img {
+  width: 100%; /* Make the image fill its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Add */
+}
+.box-panel:hover {
+  transform: scale(1.05);
+}
+.box-panel h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.content {
+  margin-top: 20px;
+  flex-grow: 1; /* Add */
+}
+.content p {
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center; /* Add */
+}
+
+.banner {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 50%;
+  height: auto;
+  display: block;
+}
