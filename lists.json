@@ -5,7 +5,7 @@
     "version": "3.4",
     "dependencies": ["BepInEx"],
     "git_path": "DeezVrOfficial/Sentinel",
-    "group": "Gameplay",
+    "group": "Modchecker",
     "download_url": "https://github.com/DeezVrOfficial/Sentinel/releases/download/1.2.6/Sentinel.dll"
   },
   {
