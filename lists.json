@@ -27,13 +27,13 @@
     "download_url": "https://github.com/heycanihavethis/Poison/releases/download/5.1.4/Poison.Menu.dll"
   },
   {
-    "name": "Monke Cosmetics",
-    "author": "Ngbatz",
-    "version": "1.0.4",
+    "name": "ZlothYDances",
+    "author": "ZlothY29IQ",
+    "version": "1.3.0",
     "dependencies": ["BepInEx"],
-    "git_path": "NgbatzYT/MonkeCosmetics",
-    "group": "Cosmetic",
-    "download_url": "https://github.com/NgbatzYT/MonkeCosmetics/releases/latest/download/MonkeCosmetics.dll"
+    "git_path": "ZlothY29IQ/ZlothYDances",
+    "group": "RandomShit",
+    "download_url": "https://github.com/ZlothY29IQ/ZlothYDances/releases/download/V1.3.0/ZlothYDances.dll"
   },
   {
     "name": "GorillaPronouns",
