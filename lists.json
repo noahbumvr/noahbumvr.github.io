@@ -9,22 +9,22 @@
     "download_url": "https://github.com/DeezVrOfficial/Sentinel/releases/download/1.2.6/Sentinel.dll"
   },
   {
-    "name": "Blink2",
-    "author": "Graze",
-    "version": "1.0.3",
+    "name": "hamburbur",
+    "author": "ZlothY29IQ",
+    "version": "7.3.0",
     "dependencies": ["BepInEx"],
-    "git_path": "The-Graze/Blink2",
-    "group": "Cosmetic",
-    "download_url": "https://github.com/The-Graze/Blink2/releases/latest/download/Blink2.dll"
+    "git_path": "hamburbur-org/hamburbur",
+    "group": "Menu",
+    "download_url": "https://github.com/hamburbur-org/hamburbur/releases/download/V7.3.0/hamburbur.dll"
   },
   {
-    "name": "GorillaCosmeticTweaks",
-    "author": "Dev",
-    "version": "1.0.1",
+    "name": "Poison",
+    "author": "heycanihavethis",
+    "version": "5.1.4",
     "dependencies": ["BepInEx"],
-    "git_path": "developer9998/GorillaCosmeticTweaks",
-    "group": "Cosmetic",
-    "download_url": "https://github.com/developer9998/GorillaCosmeticTweaks/releases/latest/download/GorillaCosmeticTweaks.dll"
+    "git_path": "heycanihavethis/Poison",
+    "group": "Menu",
+    "download_url": "https://github.com/heycanihavethis/Poison/releases/download/5.1.4/Poison.Menu.dll"
   },
   {
     "name": "Monke Cosmetics",
