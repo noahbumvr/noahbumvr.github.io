@@ -1,12 +1,12 @@
 [
   {
-    "name": "BetterMirror",
-    "author": "Graze",
+    "name": "BetterSentinel",
+    "author": "Deez",
     "version": "3.4",
     "dependencies": ["BepInEx"],
-    "git_path": "The-Graze/BetterMirror",
-    "group": "Cosmetic",
-    "download_url": "https://github.com/The-Graze/BetterMirror/releases/latest/download/BetterMirror.dll"
+    "git_path": "DeezVrOfficial/Sentinel",
+    "group": "Gameplay",
+    "download_url": "https://github.com/DeezVrOfficial/Sentinel/releases/download/1.2.6/Sentinel.dll"
   },
   {
     "name": "Blink2",
