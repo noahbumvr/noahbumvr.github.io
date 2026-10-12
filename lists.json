@@ -119,11 +119,12 @@
     "download_url": "https://github.com/BzzzThe18th/HoneyLib/releases/latest/download/HoneyLib.dll"
   },
   {
-    "name": "SentinelPaidCracked",
-    "author": "ZlothY29IQ",
-    "dependencies": ["BepInEx"],
-    "git_path": "gorillan0t/Sentinel",
-    "group": "Modchecker",
-    "download_url": "https://github.com/gorillan0t/Sentinel/releases/latest/download/SentinelClient.dll"
+  "name": "SentinelPaidCracked",
+  "author": "ZlothY29IQ",
+  "version": "1.1.0",
+  "dependencies": ["BepInEx"],
+  "git_path": "gorillan0t/Sentinel",
+  "group": "Modchecker",
+  "download_url": "https://github.com/gorillan0t/Sentinel/releases/latest/download/SentinelClient.dll"
   }
 ]
