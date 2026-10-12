@@ -120,7 +120,9 @@
   },
   {
   "name": "SentinelClient",
+  "author": "ZlothY29IQ",
   "git_path": "gorillan0t/Sentinel",
+  "group": "Modchecker",
   "download_url": "https://github.com/gorillan0t/Sentinel/releases/latest/download/SentinelClient.dll"
   }
 ]
