@@ -117,5 +117,10 @@
     "git_path": "BzzzThe18th/HoneyLib",
     "group": "Libraries",
     "download_url": "https://github.com/BzzzThe18th/HoneyLib/releases/latest/download/HoneyLib.dll"
+  },
+  {
+  "name": "SentinelClient",
+  "git_path": "gorillan0t/Sentinel",
+  "download_url": "https://github.com/gorillan0t/Sentinel/releases/latest/download/SentinelClient.dll"
   }
 ]
