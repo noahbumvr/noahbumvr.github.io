@@ -6,7 +6,7 @@
     "dependencies": ["BepInEx"],
     "git_path": "DeezVrOfficial/Sentinel",
     "group": "Modchecker",
-    "download_url": "https://github.com/DeezVrOfficial/Sentinel/releases/download/1.2.6/Sentinel.dll"
+    "download_url": "https://github.com/DeezVrOfficial/Sentinel/releases/latest/download/Sentinel.dll"
   },
   {
     "name": "hamburbur",
@@ -15,7 +15,7 @@
     "dependencies": ["BepInEx"],
     "git_path": "hamburbur-org/hamburbur",
     "group": "Menu",
-    "download_url": "https://github.com/hamburbur-org/hamburbur/releases/download/V7.3.0/hamburbur.dll"
+    "download_url": "https://github.com/hamburbur-org/hamburbur/releases/latest/download/hamburbur.dll"
   },
   {
     "name": "Poison",
@@ -24,16 +24,16 @@
     "dependencies": ["BepInEx"],
     "git_path": "heycanihavethis/Poison",
     "group": "Menu",
-    "download_url": "https://github.com/heycanihavethis/Poison/releases/download/5.1.4/Poison.Menu.dll"
+    "download_url": "https://github.com/heycanihavethis/Poison/releases/latest/download/Poison.Menu.dll"
   },
-    {
+  {
     "name": "Bark",
     "author": "NgbatzYT",
     "version": "3.0.1",
     "dependencies": ["BepInEx", "Utilla"],
     "git_path": "NgbatzYT/Bark",
     "group": "Menu",
-    "download_url": "https://github.com/NgbatzYT/Bark/releases/download/3.0.1/Bark.dll"
+    "download_url": "https://github.com/NgbatzYT/Bark/releases/latest/download/Bark.dll"
   },
   {
     "name": "ZlothYDances",
@@ -42,7 +42,7 @@
     "dependencies": ["BepInEx"],
     "git_path": "ZlothY29IQ/ZlothYDances",
     "group": "RandomShit",
-    "download_url": "https://github.com/ZlothY29IQ/ZlothYDances/releases/download/V1.3.0/ZlothYDances.dll"
+    "download_url": "https://github.com/ZlothY29IQ/ZlothYDances/releases/latest/download/ZlothYDances.dll"
   },
   {
     "name": "NXO free",
@@ -51,12 +51,12 @@
     "dependencies": ["BepInEx"],
     "git_path": "Wyvern-Softworks/NXO-Mod-Menu",
     "group": "Menu",
-    "download_url": "https://github.com/Wyvern-Softworks/NXO-Mod-Menu/releases/download/v9.0/NXO.dll"
+    "download_url": "https://github.com/Wyvern-Softworks/NXO-Mod-Menu/releases/latest/download/NXO.dll"
   },
   {
     "name": "BepInEx",
     "author": "BepInEx Team",
-    "version": "5.4.23.3",
+    "version": "5.4.23.4",
     "dependencies": ["Consoleless", "Utilla"],
     "git_path": "BepInEx/BepInEx",
     "group": "Core",
@@ -67,9 +67,18 @@
     "author": "AceThatDeveloper",
     "version": "0",
     "dependencies": ["BepInEx"],
-    "git_path": "BrokenSt0ne/Consoleless",
+    "git_path": "AceThatDeveloper/Anti-Console-IsraelAuthRemover",
     "group": "RandomShit",
-    "download_url": "https://github.com/AceThatDeveloper/Anti-Console-IsraelAuthRemover/releases/download/AntiConsole%2BAntiIAuth/Anti.Console.Anti.IAuth.dll"
+    "download_url": "https://github.com/AceThatDeveloper/Anti-Console-IsraelAuthRemover/releases/latest/download/Anti.Console.Anti.IAuth.dll"
+  },
+  {
+    "name": "Utilla",
+    "author": "sirkingbinx",
+    "version": "1.7.2",
+    "dependencies": ["BepInEx"],
+    "git_path": "sirkingbinx/Utilla",
+    "group": "Core",
+    "download_url": "https://github.com/sirkingbinx/Utilla/releases/latest/download/Utilla.dll"
   },
   {
     "name": "ConfigurationManager",
