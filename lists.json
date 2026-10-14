@@ -27,6 +27,15 @@
     "download_url": "https://github.com/heycanihavethis/Poison/releases/latest/download/Poison.Menu.dll"
   },
   {
+    "name": "Fixed Overstocked",
+    "author": "Apex-Softworks",
+    "version": "1.0.1",
+    "dependencies": ["BepInEx"],
+    "git_path": "Apex-Softworks/Fixed-Overstocked",
+    "group": "Randomshit",
+    "download_url": "https://github.com/Apex-Softworks/Fixed-Overstocked/releases/latest/download/Overstocked.dll"
+  },
+  {
     "name": "Bark",
     "author": "NgbatzYT",
     "version": "3.0.1",
